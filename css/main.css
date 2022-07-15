@@ -103,11 +103,13 @@ html {
 } 
 
 body {
-    font-family: 'Proza Libre', sans-serif;
-  padding: 0 2em;
-  font-size: 1em;
+font-family: 'Proza Libre', sans-serif;
+font-weight: 400;  
+padding: 2em;
+color: black;
   height: 100%;
 }
+
 header,
 footer {
   background-color: #24A19C;
@@ -118,57 +120,54 @@ footer {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-left: 20px;
-    padding-top: 15px;
-    padding-right: 20px;
+
 }
 
 main {
     background-color: #24A19C;
     height: 250px;
     width: 100%;
+    font-family:'Proza Libre', sans-serif;
     font-size: 1.4em;
     display: flex;
     justify-content: center;
     align-items: center;
     border-top: 1px solid #325288;
-    padding-top: 0px;
-    padding-left: 20px;
-    padding-right: 20px; 
     border-bottom: 1px solid #325288;
-   
-  }
+}
+
+.main-span {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3em;
+
+}
 
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-
-  font-weight: 400;
   display:flex;
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
 }
 
+
 .div-1, .div-2, .div-3  {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-
-  line-height: 1.25em;
-  font-size: 1.25em;
-  font-weight: 400;
-  background-color: #24A19C;
-  height: 300px;
   display:flex;
-  width: 30%;
   justify-content:center;
   align-items: center;
-  padding-left: 20px;
-  padding-right: 20px; 
- 
+  background-color: #24A19C;
+  line-height: 1.25em;
+  font-size: 1.25em;
+ height: auto;
+width: 30%;
+  }
 
+.wrapper span {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2em;
 }
-
-
 
 /* ==========================================================================
    Helper classes
